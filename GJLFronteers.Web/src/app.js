@@ -18,7 +18,7 @@ export default {
             this.currentView = comp
         }, moveCamera: function () {
             console.log("test");
-            scene.translateX(100);
+            scene.translateX(200);
         }
     }
 }
@@ -94,7 +94,7 @@ function init() {
         var hexColor = color;
 
         materials[i] = new THREE.PointsMaterial({
-            size: 1,
+            size: .7,
             map: createCanvasMaterial(hexColor, 256),
             transparent: true,
             depthWrite: false
