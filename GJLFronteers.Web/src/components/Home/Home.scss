@@ -1,0 +1,36 @@
+﻿@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.homeContainer {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+    &__content {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    &__title {
+        font-size: 5vw;
+        font-weight: 400;
+        line-height: 1.1;
+        animation: zoom 20s infinite;
+        animation-direction: alternate;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .dud {
+        color: #808080;
+    }
+}

@@ -37,9 +37,16 @@
     <None Include="App.config" />
     <None Include="package.json" />
     <None Include="README.md" />
+    <None Include="src\App.scss" />
     <None Include="src\App.vue" />
+    <None Include="src\assets\scss\fonts.scss" />
+    <None Include="src\assets\scss\layout\footer.scss" />
+    <None Include="src\assets\scss\layout\all.scss" />
     <None Include="src\components\Contact.vue" />
-    <None Include="src\components\Portfolio\Portfolio.vue" />
+    <None Include="src\components\Home\Home.scss" />
+    <None Include="src\components\Home\Home.vue" />
+    <None Include="src\components\About\About.scss" />
+    <None Include="src\components\About\About.vue" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="dist\js\vendors.min.js" />
@@ -48,7 +55,8 @@
     <Content Include="src\assets\img\logo.png" />
     <Content Include="src\assets\js\app.js" />
     <Content Include="src\App.js" />
-    <Content Include="src\components\Portfolio\Portfolio.js" />
+    <Content Include="src\components\Home\Home.js" />
+    <Content Include="src\components\About\About.js" />
     <Content Include="src\main.js" />
     <Content Include="webpack.config.js" />
   </ItemGroup>

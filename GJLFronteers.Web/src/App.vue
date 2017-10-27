@@ -1,20 +1,23 @@
 <template>
     <div id="app">
-        <h1>{{ msg }}</h1>
-
-        <button @click="changeComponent('Contact')">Click me fool</button>
-        <button @click="moveCamera">Move the Camera</button>
         <component :is="currentView">
             <!-- component changes when vm.currentView changes! -->
         </component>
+
+        <footer class="footer">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__listItem">
+                        <a href="#" class="footer__link" title="Home">Home</a>
+                    </li>
+                    <li class="footer__listItem">
+                        <a href="#" class="footer__link" title="About">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
     </div>
 </template>
 
-<script src="./App.js"></script>
-
-<style type="text/scss">
-    canvas {
-        background: -webkit-linear-gradient(27deg, rgb(0, 0, 0), rgb(66, 0, 0));
-        background: linear-gradient(27deg, rgb(0, 0, 0), rgb(66, 0, 0));
-    }
-</style>
+<script lang="js" src="./App.js"></script>
+<style lang="scss" src="./App.scss"></style>

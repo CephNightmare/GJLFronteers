@@ -1,5 +1,5 @@
 ﻿export default {
-    name: 'Portfolio',
+    name: 'About',
     data() {
         return {
             title: 'Some of my work'

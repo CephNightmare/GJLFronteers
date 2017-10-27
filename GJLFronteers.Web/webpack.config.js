@@ -2,6 +2,7 @@ var path = require('path')
 var webpack = require('webpack')
 var three = require('three')
 var $ = require("jquery")
+var TWEEN = require('@tweenjs/tween.js');
 
 module.exports = {
   entry: './src/main.js',
@@ -48,6 +49,8 @@ module.exports = {
           jQuery: 'jquery',
           THREE: 'Three',
           Three: 'Three',
+          Tween: '@tweenjs/tween.js',
+          TWEEN: '@tweenjs/tween.js',
       })
   ],
   resolve: {
