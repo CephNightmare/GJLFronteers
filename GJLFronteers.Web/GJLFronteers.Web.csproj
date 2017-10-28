@@ -40,13 +40,13 @@
     <None Include="src\App.scss" />
     <None Include="src\App.vue" />
     <None Include="src\assets\scss\fonts.scss" />
-    <None Include="src\assets\scss\layout\footer.scss" />
-    <None Include="src\assets\scss\layout\all.scss" />
     <None Include="src\components\Contact.vue" />
     <None Include="src\components\Home\Home.scss" />
     <None Include="src\components\Home\Home.vue" />
     <None Include="src\components\About\About.scss" />
     <None Include="src\components\About\About.vue" />
+    <None Include="src\components\Partials\Layout\vueFooter.scss" />
+    <None Include="src\components\Partials\Layout\vueFooter.vue" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="dist\js\vendors.min.js" />
@@ -57,6 +57,7 @@
     <Content Include="src\App.js" />
     <Content Include="src\components\Home\Home.js" />
     <Content Include="src\components\About\About.js" />
+    <Content Include="src\components\Partials\Layout\vueFooter.js" />
     <Content Include="src\main.js" />
     <Content Include="webpack.config.js" />
   </ItemGroup>

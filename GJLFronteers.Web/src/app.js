@@ -1,6 +1,7 @@
 ﻿import Home from './components/Home/Home.vue';
 import About from './components/About/About.vue';
 import Contact from './components/Contact.vue';
+import vueFooter from './components/Partials/Layout/vueFooter.vue';
 
 export default {
     name: 'app',
@@ -12,7 +13,8 @@ export default {
     components: {
         About,
         Contact,
-        Home
+        Home,
+        vueFooter
     },
     methods: {
         changeComponent: function (comp) {

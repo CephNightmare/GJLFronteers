@@ -4,18 +4,7 @@
             <!-- component changes when vm.currentView changes! -->
         </component>
 
-        <footer class="footer">
-            <nav class="footer__nav">
-                <ul class="footer__list">
-                    <li class="footer__listItem">
-                        <a href="#" class="footer__link" title="Home">Home</a>
-                    </li>
-                    <li class="footer__listItem">
-                        <a href="#" class="footer__link" title="About">About</a>
-                    </li>
-                </ul>
-            </nav>
-        </footer>
+        <vueFooter></vueFooter>
     </div>
 </template>
 
